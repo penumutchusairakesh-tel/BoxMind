@@ -1,0 +1,10 @@
+1,Which keyword is used to inherit a class in Java?,extends:implements:inherits:super
+2,Which of these is NOT a primitive data type in Java?,int:float:String:boolean
+3,Which method is the entry point of a Java program?,start():main():run():init()
+4,Which keyword is used to create an object in Java?,new:create:object:instance
+5,Which keyword prevents a class from being inherited?,static:final:const:sealed
+6,What is the default value of a boolean variable in Java?,true:false:null:0
+7,Which collection class allows duplicate elements and maintains insertion order?,HashSet:ArrayList:TreeSet:HashMap
+8,Which keyword is used to handle exceptions in Java?,except:catch:rescue:error
+9,Which access modifier makes a member accessible only within its own class?,public:protected:private:default
+10,What does the JVM stand for?,Java Virtual Machine:Java Variable Method:Joint Virtual Machine:Java Verified Machine
