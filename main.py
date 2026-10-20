@@ -1,5 +1,9 @@
 #Make sure the questions dont have "," and the options are in order : Any change breaks this
 
-import Display_Questions as dq
+import Display_Questions 
 
-dq.display_box_0()
+d = Display_Questions.box0
+
+
+d.Working()
+

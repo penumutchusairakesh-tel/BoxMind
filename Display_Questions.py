@@ -1,13 +1,28 @@
 from ShiftBoxes import ShiftQuestions
+from Checks import CheckFiles
 s = ShiftQuestions()
+ch = CheckFiles()
+
 class DisplayQuestions:
     def __init__(self):
         self.ques :list = None
         self.opt :list= None
+        self.Fileno = 48
+        self.Filename = ""
+    def set_FileName(self):
+        self.Filename = "box_"+chr(self.Fileno)+".txt"
         
-    
+    def Working(self):
+        self.set_FileName()
+        while not  ch.checkFileisEmpty(self.Filename) : #not empty then run the questions
+            self.display_box_0()
+        ch.AfterEmpty(self.Filename,box0)  
+        
+            
     def display_box_0(self):
-        with open("box_0",'r') as f:
+        #print(self.Filename)
+        
+        with open(self.Filename,'r') as f:
             all_opt = self.get_all_options()
             while True:
                 line = f.readline()
